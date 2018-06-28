@@ -1,14 +1,13 @@
 #include <stdio.h>
-int main(void)
+int main()
 {
- int N,i;
+ int n,i;
  int sum=0;
- printf("Enter the real number");
- scanf("%d",&N);
- for(i=1;i<=N;i++)
+ scanf("%d",&n);
+ for(i=1;i<=n;i++)
  {
  	sum=sum+i;
  }
- printf("\n sum is %d",sum);
+ printf("%d",sum);
 	return 0;
 }
