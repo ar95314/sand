@@ -1,16 +1,14 @@
-#include <stdio.h>
- 
-int main(void) 
+	#include <stdio.h>
+int main() 
 {
-	int n,count=0;
-	printf("\n Enter the value for n");
-	scanf("%d",&n);
-	while(n>0)
+	int num,digit=0,i;
+	scanf("%d",&num);
+	while(num!=0)
 	{
-		n=n/10;
-		count=count+1;
+	num=num/10;
+	digit++;
 	}
-	printf("\n The number of digit in n is %d",count);
+	printf("%d",digit);
 	return 0;
 }
- 
+	
