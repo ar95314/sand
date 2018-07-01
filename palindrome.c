@@ -12,8 +12,8 @@ int main(void) {
 		num = num / 10 ;
 	}
 	if ( temp == rem)
-	   printf("palindrome") ;
+	   printf("yes") ;
 	else
-	   printf("not palindrome") ;
+	   printf("no") ;
 	return 0;
 }
